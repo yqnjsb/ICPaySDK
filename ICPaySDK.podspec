@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.subspec 'ICWxPay' do |wx|
 
     wx.dependency 'ICPaySDK/ICPayManager'
-    wx.dependency 'WechatOpenSDK'
+    wx.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChatFull'
     wx.source_files = 'ICPaySDK/ICWxPay/*.{h,m}'
 
     end
