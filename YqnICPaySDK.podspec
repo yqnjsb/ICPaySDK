@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = "ICPaySDK = wxpay + alipay. the api is unique"
   s.homepage         = 'https://github.com/yqnjsb/ICPaySDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'corkiios' => '675053587@qq.com' }
+  s.author           = { 'corkiios' => 'gjianbo@qq.com' }
   s.source           = { :git => 'https://github.com/yqnjsb/ICPaySDK.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
