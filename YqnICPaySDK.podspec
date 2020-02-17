@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YqnICPaySDK'
-  s.version          = '1.5.2'
+  s.version          = '1.5.4'
   s.summary          = 'YqnICPaySDK is an unique sdk to pay'
   s.description  = "ICPaySDK = wxpay + alipay. the api is unique"
   s.homepage         = 'https://github.com/yqnjsb/ICPaySDK'
