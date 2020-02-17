@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'ICPaySDK'
+  s.name             = 'YqnICPaySDK'
   s.version          = '1.5.2'
-  s.summary          = 'ICPaySDK is an unique sdk to pay'
+  s.summary          = 'YqnICPaySDK is an unique sdk to pay'
   s.description  = "ICPaySDK = wxpay + alipay. the api is unique"
-  s.homepage         = 'https://github.com/CorkiiOS/ICPaySDK'
+  s.homepage         = 'https://github.com/yqnjsb/ICPaySDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'corkiios' => '675053587@qq.com' }
-  s.source           = { :git => 'https://github.com/CorkiiOS/ICPaySDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yqnjsb/ICPaySDK.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
 
