@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
    s.subspec 'ICAliPay' do |ali|
 
     ali.dependency 'ICPaySDK/ICPayManager'
-    ali.dependency 'AliPay_SDK'
+    ali.dependency 'AlipaySDK_No_UTDID'
     ali.source_files = 'ICPaySDK/ICAliPay/*.{h,m}'
 
    end
